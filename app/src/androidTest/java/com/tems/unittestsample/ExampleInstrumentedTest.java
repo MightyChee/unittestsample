@@ -40,6 +40,6 @@ public class ExampleInstrumentedTest {
 
         BySelector nameField = By.clazz("android.widget.EditText").res("com.tems.unittestsample:id/userNameInput");
 
-        assertEquals(nameField != null, nameField != null);
+        assertEquals(nameField == null, nameField != null);
     }
 }
